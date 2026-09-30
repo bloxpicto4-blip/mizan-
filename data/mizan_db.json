@@ -1,0 +1,461 @@
+{
+  "users": [
+    {
+      "id": "guest_user_1",
+      "email": "guest@mizan.ai",
+      "name": "صديق ميزان",
+      "passwordHash": "guest_password_mizan",
+      "role": "user",
+      "createdAt": "2026-09-30T12:46:25.122Z"
+    }
+  ],
+  "settings": {
+    "guest_user_1": {
+      "userId": "guest_user_1",
+      "language": "egyptian",
+      "responseStyle": "balanced",
+      "theme": "dark",
+      "voiceRate": 1,
+      "voicePitch": 1,
+      "enableMemory": true,
+      "progressiveStudy": true
+    }
+  },
+  "conversations": [
+    {
+      "id": "conv_ly9mwv1",
+      "userId": "guest_user_1",
+      "title": "محادثة جديدة",
+      "pinned": false,
+      "archived": false,
+      "folder": "عام",
+      "createdAt": "2026-09-30T13:01:23.568Z",
+      "updatedAt": "2026-09-30T13:04:24.651Z",
+      "lastMessagePreview": "يا معلم، اختيار ممتاز! لعبة **Hill Climb Racing** من الألعاب الممتعة جداً برمجياً لأنها بتعتمد على حاجة اسمها **Physics "
+    },
+    {
+      "id": "conv_ebq6lt2",
+      "userId": "guest_user_1",
+      "title": "محادثة جديدة",
+      "pinned": false,
+      "archived": false,
+      "folder": "عام",
+      "createdAt": "2026-09-30T13:01:19.745Z",
+      "updatedAt": "2026-09-30T13:01:19.745Z"
+    },
+    {
+      "id": "conv_vcvpbr9",
+      "userId": "guest_user_1",
+      "title": "عندي سؤال أو مسألة في المذاكرة",
+      "pinned": false,
+      "archived": false,
+      "folder": "عام",
+      "createdAt": "2026-09-30T12:56:41.426Z",
+      "updatedAt": "2026-09-30T12:56:48.929Z",
+      "lastMessagePreview": "يا هلا بيك يا غالي! على عيني، ويلا بينا نمشيها تكة تكة لحد ما نتقن الطريقة الذكية لحل المسائل اللي زي\n\nحصلت مشكلة بسيطة "
+    },
+    {
+      "id": "conv_welcome",
+      "userId": "guest_user_1",
+      "title": "مرحبًا بك في MIZAN AI 🇪🇬",
+      "pinned": true,
+      "archived": false,
+      "folder": "عام",
+      "createdAt": "2026-09-30T11:46:25.122Z",
+      "updatedAt": "2026-09-30T13:05:55.829Z",
+      "lastMessagePreview": "الناتج يا بطل هو **10,000**.\n\n**النصيحة البرمجية:**\nبص يا صاحبي، وأنت بتكتب كود، دايماً خليك فاكر إن \"الـ Clean Code أهم"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_welcome_1",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "يا هلا بيك في **MIZAN AI**! 🇪🇬✨\n\nأنا مساعدك الشخصي الذكي، صُممت مخصوص عشان أكون جنبك في كل تفصيلة في يومك:\n\n- 📚 **مذاكرة وشرح دروس:** بلخص، بعمل كروت استذكار (Flashcards)، واختبارات تفاعلية ذكية بنظام مساعدة تدريجي.\n- 💻 **برمجة وتكنولوجيا:** بنكتب كود سوا، بنحلل أخطاء ونشرح أحدث التقنيات.\n- 🔎 **بحث مباشر على الويب:** بجيبلك آخر الأخبار والأسعار والمعلومات المحدثة مع المصادر.\n- 📸 **تحليل صور وملفات:** ارفع أي صورة، ملخص، PDF، أو مستند، وهفصصهولك كلمة كلمة.\n- 📅 **تنظيم اليوم والأفكار:** تخطيط وإدارة مهامك ببساطة.\n\nجاهز؟ اسألني أي حاجة تدور في بالك! 🚀",
+      "createdAt": "2026-09-30T11:46:25.122Z"
+    },
+    {
+      "id": "msg_6mvjwhj",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "عامل ايه",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:48:01.409Z"
+    },
+    {
+      "id": "msg_njszzwo",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "الحمد لله يا صاحبي، كله تمام وبأحسن حال! 🚀\n\nأنت عامل إيه وأخبارك إيه؟ \n\nقول لي بقى، شغال على إيه النهاردة ومحتاج أساعدك في إيه؟ كود، مذاكرة، ولا فكرة مشروع بتخطط لها؟ جاهز معاك في أي وقت!",
+      "createdAt": "2026-09-30T12:48:06.405Z"
+    },
+    {
+      "id": "msg_0a44800",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "عاوز برومت لعبه حلوا",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:48:23.589Z"
+    },
+    {
+      "id": "msg_mm73s1r",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "من عيوني يا غالي! جبتلك برومبت رايق جداً بيقلب الذكاء الاصطناعي لـ **\"Game Master\" (راوي قصة تفاعلي)** يخليك تلعب لعبة Text-RPG ممتعة ومبنية على اختياراتك.\n\nممكن تاخد البرومبت ده كوبي وتبعتهولي عشان نلعب سوا هنا، أو تديه لأي شات:\n\n---\n\n### 🎮 البرومبت (انسخه واستخدمه):\n\n> \"عايزك تلعب معايا دور Game Master في لعبة مغامرات تفاعلية شيقة (Interactive Text RPG). \n> \n> **قواعد اللعبة:**\n> 1. اسألني في الأول عن العالم اللي حابب أبدأ فيه: (غموض وجريمة، خيال وفانتازيا وسحر، نجاة من زومبي، أو عالم سايبر بانك مستقبلي).\n> 2. بناءً على اختياري، ابدأ بتقديم قصة قصيرة ومشوقة لمشهدي الافتتاحي وحدد لي حالتي (الصحة، الأدوات اللي معايا).\n> 3. في نهاية كل رد، اعرض عليا **3 إلى 4 اختيارات** منطقية أقدر أختار منها الخطوة الجاية، مع خيار خامس: 'أكتب قراري بنفسي'.\n> 4. كل قرار باخده بيأثر بشكل حقيقي على مسار القصة، وفيه احتمالية مكسب أو خسارة أو خطر.\n> 5. لا تكتب أحداث طويلة زيادة عن اللزوم، خلي السيناريو سريع وفيه إثارة وتحدي.\n> \n> ابدأ دلوقتي واسألني عن العالم اللي حابب أختاره وشخصيتي!\"\n\n---\n\n### 💡 تحب نبدأ نلعبها سوا هنا دلوقتي حالا؟\nلو جاهز، قولي حابب تلعب إيه:\n1. 🕵️‍♂️ **محقق جنائي:** بتحل لغز سرقة أو جريمة غامضة في القاهرة القديمة.\n2. 🧟 **بقاء (Survival):** نجاة في مدينة بعد انتشار وباء غريب.\n3. ⚔️ **مغامرة فانتازيا:** محارب/ساحر في عالم سحري مليان وحوش وكنوز.\n4. 🚀 **سايبر بانك (Cyberpunk):** هاكر محترف بيخترق أنظمة شركة تكنولوجية عملاقة.\n\nاختار رقم ويلا بينا! 🕹️",
+      "createdAt": "2026-09-30T12:48:31.900Z"
+    },
+    {
+      "id": "msg_7djekey",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "انا عايز اعمل لعبه",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:48:57.180Z"
+    },
+    {
+      "id": "msg_u1sss86",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "\n\nحصلت مشكلة بسيطة في الاتصال، جرّب تاني بعد لحظات.",
+      "createdAt": "2026-09-30T12:48:59.058Z"
+    },
+    {
+      "id": "msg_n5zvzle",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "عايز اعمل لعبه ممكن تديني فكره",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:49:16.230Z"
+    },
+    {
+      "id": "msg_ygzuqi0",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "\n\nحصلت مشكلة بسيطة في الاتصال، جرّب تاني بعد لحظات.",
+      "createdAt": "2026-09-30T12:49:17.398Z"
+    },
+    {
+      "id": "msg_urnjiuj",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "اسمك ايه",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:49:22.960Z"
+    },
+    {
+      "id": "msg_uwyr99c",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "\n\nحصلت مشكلة بسيطة في الاتصال، جرّب تاني بعد لحظات.",
+      "createdAt": "2026-09-30T12:49:24.490Z"
+    },
+    {
+      "id": "msg_3ukm6oa",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "بقولك",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:54:27.350Z"
+    },
+    {
+      "id": "msg_v0lnhq0",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "\n\nحصلت مشكلة بسيطة في الاتصال، جرّب تاني بعد لحظات.",
+      "createdAt": "2026-09-30T12:54:32.259Z"
+    },
+    {
+      "id": "msg_vick4qs",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "30+30",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:55:48.468Z"
+    },
+    {
+      "id": "msg_9ukre94",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "الناتج = **60** \n\nمعاك يا صاحبي، وسامعك ومتابع معاك.. قولي بقى، كنت عايز أفكار للعبة اللي في بالك صح؟ تحب نعمل حاجة 2D بسيطة للموبايل، ولا فكرة ويب سريعة، ولا إيه المنصة ومحرك الألعاب اللي حابب تبدأ بيه؟",
+      "toolInvocations": [
+        {
+          "tool": "calculator",
+          "input": "30+30",
+          "output": 60,
+          "status": "success"
+        }
+      ],
+      "createdAt": "2026-09-30T12:55:55.689Z"
+    },
+    {
+      "id": "msg_uppb1va",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "عاوز حاجه 2d",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:56:07.738Z"
+    },
+    {
+      "id": "msg_iwa8r7r",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "\n\nحصلت مشكلة بسيطة في الاتصال، جرّب تاني بعد لحظات.",
+      "createdAt": "2026-09-30T12:56:15.491Z"
+    },
+    {
+      "id": "msg_n1ul8gk",
+      "conversationId": "conv_vcvpbr9",
+      "role": "user",
+      "content": "عندي سؤال أو مسألة في المذاكرة محتاج فيها مساعدة بنظام التدرج التربوي:\n\"2*2*6*6*7*8*9*77\"\n\nمحتاج تبدأ معايا بـ: [المستوى 1]",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:56:42.052Z"
+    },
+    {
+      "id": "msg_bin6j5d",
+      "conversationId": "conv_vcvpbr9",
+      "role": "assistant",
+      "content": "يا هلا بيك يا غالي! على عيني، ويلا بينا نمشيها تكة تكة لحد ما نتقن الطريقة الذكية لحل المسائل اللي زي\n\nحصلت مشكلة بسيطة في الاتصال، جرّب تاني بعد لحظات.",
+      "createdAt": "2026-09-30T12:56:48.929Z"
+    },
+    {
+      "id": "msg_nzozfcm",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "ممكن تشرحلي يعني ايه API في جملتين؟",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:57:54.247Z"
+    },
+    {
+      "id": "msg_oiqhz9w",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "\n\nحصلت مشكلة بسيطة في الاتصال، جرّب تاني بعد لحظات.",
+      "createdAt": "2026-09-30T12:57:55.350Z"
+    },
+    {
+      "id": "msg_lj6iaaq",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "ممكن تشرحلي يعني ايه API في جملتين؟",
+      "attachments": [],
+      "createdAt": "2026-09-30T12:59:22.651Z"
+    },
+    {
+      "id": "msg_eiinrzw",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "بص يا سيدي، الـ **API** هو عبارة عن \"وسيط\" بيخلي برنامجين يكلموا بعض ويتبادلوا بيانات من غير ما يحتاجوا يعرفوا تفاصيل الكود الداخلي بتاع بعض.\n\nببساطة، هو زي \"الجرسون\" في المطعم؛ إنت بتطلب منه الأكل (الطلب)، وهو بيروح للمطبخ (السيرفر) يجيلك بالنتيجة اللي طلبتها.",
+      "createdAt": "2026-09-30T12:59:30.563Z"
+    },
+    {
+      "id": "msg_52gzapb",
+      "conversationId": "conv_ly9mwv1",
+      "role": "user",
+      "content": "عاوز اعمل لعبه ",
+      "attachments": [],
+      "createdAt": "2026-09-30T13:01:33.016Z"
+    },
+    {
+      "id": "msg_vuqb2v9",
+      "conversationId": "conv_ly9mwv1",
+      "role": "assistant",
+      "content": "يا هلا يا بطل! دي خطوة ممتازة، ومجال الـ Game Development ممتع جدًا ومحتاج صبر وخطوات منظمة. بص يا صاحبي، عشان نبدأ صح ونمشي على طريق واضح، لازم نحدد إحنا واقفين فين وعاوزين نوصل لإيه.\n\nعشان أساعدك بأفضل شكل، قولي إجابات الأسئلة دي:\n\n1. **إيه نوع اللعبة اللي في خيالك؟** (مثلاً: 2D زي ألعاب الـ Platformer، ولا 3D، ولا لعبة بسيطة على الموبايل، ولا لعبة متصفح Browser Game؟)\n2. **إيه خبرتك في البرمجة؟** (عارف لغة معينة زي Python أو C# أو JavaScript؟ ولا لسه بنبدأ من الصفر؟)\n3. **عاوز اللعبة تشتغل فين؟** (كمبيوتر، موبايل، ولا ويب؟)\n\n---\n\n### خريطة الطريق المختصرة عشان تبدأ:\n\nبما إنك مهتم بالبرمجة، فإنت قدامك 3 طرق أساسية حسب هدفك:\n\n#### 1. لو عاوز تدخل في الـ Professional Game Development:\nأحسن اختيار هو **Unity** أو **Unreal Engine**.\n*   **Unity:** بيستخدم لغة **C#**، وهو الأشهر للألعاب الـ 2D والـ 3D للموبايل والكمبيوتر.\n*   **Unreal Engine:** بيستخدم **C++** أو نظام الـ **Blueprints** (برمجة مرئية من غير كود)، وده وحش الـ 3D والجرافيكس العالي.\n\n#### 2. لو عاوز حاجة خفيفة وتتعلم بسرعة (Web-based):\nممكن تستخدم **JavaScript** مع مكتبات زي **Phaser.js** أو **Three.js**. دي بتخليك تعمل ألعاب تشتغل مباشرة على المتصفح بـ Link واحد.\n\n#### 3. لو عاوز تبدأ كـ Beginner وتشوف نتيجة فورية:\nممكن تجرب **Godot Engine**. هو خفيف، Open Source، وبيستخدم لغة اسمها **GDScript** (شبه بايثون جداً)، وسهل جداً في التعامل.\n\n---\n\n### أول خطوة عملية تعملها دلوقتي:\nبلاش تبدأ بلعبة ضخمة زي GTA! ابدأ بـ **\"Prototype\"** صغير:\n*   اعمل لعبة فيها شخصية بتتحرك وتجمع \"Coin\".\n*   لما تخلصها، ضيف لها \"Score\".\n*   بعدين ضيف لها \"Enemy\" بيتحرك.\n\n**إيه رأيك؟ تحب أرشحلك \"Engine\" معين نبدأ نتعلم عليه سوا؟ ولا عندك فكرة لعبة وعاوزني أساعدك في الـ Logic بتاعها؟** أنا جاهز ومعاك خطوة بخطوة!",
+      "createdAt": "2026-09-30T13:01:49.204Z"
+    },
+    {
+      "id": "msg_xymdcvu",
+      "conversationId": "conv_ly9mwv1",
+      "role": "user",
+      "content": "انا عايز اعمل لعبه 2d بال ai عايزك ديني فكره وبعد كده تديني البرومت",
+      "attachments": [],
+      "createdAt": "2026-09-30T13:02:28.319Z"
+    },
+    {
+      "id": "msg_axvn36u",
+      "conversationId": "conv_ly9mwv1",
+      "role": "assistant",
+      "content": "يا وحش، فكرة ممتازة! بما إننا هنستخدم الـ AI، فإحنا هنعتمد على الـ AI في حاجتين: **كتابة الكود** (عن طريق أدوات زي Cursor أو حتى مساعدتي هنا) و**توليد الـ Assets** (زي الصور والخلفيات بـ Midjourney أو DALL-E).\n\nبما إننا بنبدأ، خلينا نعمل لعبة **\"Infinite Runner\"** (زي لعبة الديناصور بتاع جوجل بس بشكل أشيك). الفكرة إن الشخصية بتجري في \"غابة سايبربانك\" وبتحاول تتفادى عوائق بتظهر بشكل عشوائي.\n\n### الفكرة: \"Cyber-Runner 2077\"\n*   **القصة:** روبوت هارب من مصنع بيجري في مدينة مستقبلية.\n*   **الـ Mechanics:** الشخصية بتتحرك في مكانها، الأرضية بتتحرك، فيه زرار للـ Jump (قفز).\n*   **الهدف:** تعيش أطول فترة ممكنة وتجمع \"Data Chips\" عشان تزود الـ Score.\n\n---\n\n### إزاي هنستخدم الـ AI؟\n\n1.  **البرمجة:** هنستخدم **Phaser.js** (مكتبة JavaScript خفيفة وسهلة للألعاب).\n2.  **الـ Assets (الصور):** هتستخدم AI زي **Leonardo.ai** أو **DALL-E 3** عشان تطلع صور الشخصية والخلفية بنمط Pixel Art.\n\n---\n\n### الـ Prompt اللي هتستخدمه (للـ AI عشان يكتبلك الكود):\n\nانسخ الـ Prompt ده واديه لأي AI (زي ChatGPT أو Claude) عشان يديك هيكل اللعبة:\n\n> \"Act as a professional game developer. I want to create a 2D 'Infinite Runner' game using Phaser.js. \n> 1. Provide the complete HTML and JavaScript code for a simple prototype where a character jumps over obstacles.\n> 2. Include a 'Score' counter that increases over time.\n> 3. Add simple gravity logic for the jump.\n> 4. Please explain how to integrate background images and sprite sheets for the character.\n> 5. Keep the code modular and clean, using ES6 standards.\"\n\n---\n\n### الـ Prompt اللي هتستخدمه (للـ AI عشان يطلعلك صور اللعبة):\n\nروح لـ **Leonardo.ai** أو أي أداة توليد صور، واكتب ده:\n\n> \"2D side-scrolling pixel art game asset, a cute small robot character, cyberpunk style, neon lights, high resolution, white background, sprite sheet style.\"\n\n---\n\n### نصيحتي ليك يا صاحبي:\n1.  **ابدأ بالـ Logic:** خد الكود اللي هيطلعه الـ AI وجربه على متصفحك. (لو مش عارف إزاي، قولي وأنا أعلمك إزاي تشغل الـ Local Server بتاعك).\n2.  **التدرج:** أول ما اللعبة تشتغل، هنبدأ نضيف \"تاتشات\" زي صوت، أو تغيير سرعة اللعبة كل ما الـ Score يعلى.\n\n**ها، جاهز نبدأ في الكود؟ قولي لو محتاجني أكتبلك أول جزء من الـ Code ونشرحه سوا!**",
+      "createdAt": "2026-09-30T13:02:56.802Z"
+    },
+    {
+      "id": "msg_ycf5p4t",
+      "conversationId": "conv_ly9mwv1",
+      "role": "user",
+      "content": "انا عايز اعمل لعبه الي هيا العربية hill climb racer",
+      "attachments": [],
+      "createdAt": "2026-09-30T13:04:11.635Z"
+    },
+    {
+      "id": "msg_hgsqb1a",
+      "conversationId": "conv_ly9mwv1",
+      "role": "assistant",
+      "content": "يا معلم، اختيار ممتاز! لعبة **Hill Climb Racing** من الألعاب الممتعة جداً برمجياً لأنها بتعتمد على حاجة اسمها **Physics Engine** (محرك فيزياء). يعني اللعبة مش مجرد صور بتتحرك، دي فيها \"جاذبية\"، \"احتكاك\"، و\"عزم دوران\" للعجل.\n\nعشان تعمل حاجة زي كده، **Unity** هو الخيار الأفضل لأن فيه محرك فيزياء جاهز وقوي جداً اسمه **Box2D** (جوه الـ Unity بيسموه **2D Physics**).\n\n---\n\n### الفكرة التقنية (الـ Logic):\nاللعبة بتعتمد على 3 عناصر أساسية:\n1.  **Vehicle (العربية):** عبارة عن جسم (Body) وعليه عجلتين (Wheels) مربوطين بـ \"Joints\" (مفاصل) بتسمح للعجل يلف ويطلع وينزل مع المطبات.\n2.  **Terrain (الأرض):** دي بنعملها باستخدام حاجة اسمها **2D Edge Collider**، وده خط متعرج الـ AI بيقدر يرسمهولك بشكل عشوائي (Procedural Generation).\n3.  **Physics:** بنستخدم **Wheel Joint 2D** عشان نربط العجل بجسم العربية، وده اللي بيدينا إحساس الـ Suspension (المساعدين).\n\n---\n\n### الـ Prompt اللي هتستخدمه عشان الـ AI يساعدك في الكود:\n\nبما إننا هنستخدم **Unity (C#)**، انسخ الـ Prompt ده واديه لأي AI عشان يديك الـ Script الأساسي للعربية:\n\n> \"Act as a Unity Game Developer. I want to build a 2D car physics game similar to Hill Climb Racing. \n> 1. Write a C# script for a 2D car controller in Unity.\n> 2. The script should control two wheels using 'WheelJoint2D' components.\n> 3. Add logic for acceleration (motor speed) and braking.\n> 4. Explain how to set up the 'WheelJoint2D' in the Unity Inspector to make the car feel bouncy and realistic.\n> 5. Use clean and commented code.\"\n\n---\n\n### خطوات عملية عشان تبدأ دلوقتي:\n\n1.  **نزل Unity:** لو مش عندك، نزل **Unity Hub** واختار إصدار **2022.3 LTS**.\n2.  **الـ Assets:** مش محتاج رسام، ادخل على **Unity Asset Store** وابحث عن \"2D Car Kit\" هتلاقي حاجات مجانية جاهزة للعربيات والبيئة.\n3.  **الـ Terrain:** عشان تعمل الأرض المتعرجة، ابحث عن حاجة اسمها **\"Unity 2D Procedural Terrain Generation\"**.\n\n---\n\n### تحذير \"ميزان\" الودي:\nأصعب حاجة في اللعبة دي مش الكود، هي **\"الضبط\" (Tuning)**. يعني إيه؟ يعني تقعد تجرب قيم الـ (Suspension Frequency) والـ (Damping) في الـ Unity Inspector لحد ما العربية متفرقعش منك ولا تعلق في الأرض!\n\n**تحب أكتبلك الـ C# Script الأساسي للعربية هنا ونشرح إزاي تربط كل جزء بالـ Component بتاعه؟** أنا جاهز لو قولت \"تمام\"!",
+      "createdAt": "2026-09-30T13:04:24.651Z"
+    },
+    {
+      "id": "msg_lmbgbkt",
+      "conversationId": "conv_welcome",
+      "role": "user",
+      "content": "احسبلي 500 * 20 واكتبلي نصيحة برمجية بالعامية المصرية",
+      "attachments": [],
+      "createdAt": "2026-09-30T13:05:48.815Z"
+    },
+    {
+      "id": "msg_m782pf6",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "الناتج يا بطل هو **10,000**.\n\n**النصيحة البرمجية:**\nبص يا صاحبي، وأنت بتكتب كود، دايماً خليك فاكر إن \"الـ Clean Code أهم من الـ Fast Code\". يعني ما تحاولش تعمل \"عبقرية\" وتكتب كود معقد ومكلكع عشان توفر سطرين، اكتب كود مفهوم ليك ولغيرك.. لأنك بعد شهر لو رجعت للكود بتاعك ده ومش فاهمه، هتتعب جداً في الـ Debugging. \n\nاكتب كود واضح، سمّي الـ Variables بأسماء تعبر عن وظيفتها، وسيب الـ Optimization لما تحتاجه فعلاً!",
+      "toolInvocations": [
+        {
+          "tool": "calculator",
+          "input": "500 * 20",
+          "output": 10000,
+          "status": "success"
+        }
+      ],
+      "createdAt": "2026-09-30T13:05:55.829Z"
+    }
+  ],
+  "memories": [
+    {
+      "id": "mem_1",
+      "userId": "guest_user_1",
+      "key": "أسلوب الشرح المفضل",
+      "content": "يفضل الأمثلة العملية الواقعية بالعامية المصرية مع مصطلحات تقنية إنجليزية واضحة.",
+      "createdAt": "2026-09-30T12:46:25.122Z"
+    },
+    {
+      "id": "mem_2",
+      "userId": "guest_user_1",
+      "key": "الاهتمامات",
+      "content": "مهتم بالبرمجة، وتطوير الويب، والتكنولوجيا، والمذاكرة الذكية.",
+      "createdAt": "2026-09-30T12:46:25.122Z"
+    }
+  ],
+  "studySessions": [],
+  "adminConfig": {
+    "aiProvider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "temperature": 0.7,
+    "maxOutputTokens": 2048,
+    "customSystemPrompt": "",
+    "enabledTools": {
+      "webSearch": true,
+      "calculator": true,
+      "codeAnalysis": true,
+      "imageUnderstanding": true,
+      "documentAnalysis": true,
+      "dateTime": true,
+      "unitConverter": true
+    },
+    "rateLimitPerMin": 60,
+    "maintenanceMode": false
+  },
+  "usageLogs": [
+    {
+      "id": "log_l7if9qu",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:48:06.406Z"
+    },
+    {
+      "id": "log_k7phy4y",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:48:31.901Z"
+    },
+    {
+      "id": "log_zqgoa8x",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:48:59.058Z"
+    },
+    {
+      "id": "log_0ke7a0e",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:49:17.399Z"
+    },
+    {
+      "id": "log_58bmaz8",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:49:24.490Z"
+    },
+    {
+      "id": "log_5joov18",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:54:32.260Z"
+    },
+    {
+      "id": "log_k3kzppb",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:55:55.689Z"
+    },
+    {
+      "id": "log_j351zfn",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:56:15.492Z"
+    },
+    {
+      "id": "log_a8mrziz",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:56:48.929Z"
+    },
+    {
+      "id": "log_hdlfr07",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:57:55.351Z"
+    },
+    {
+      "id": "log_tnfuxyh",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T12:59:30.564Z"
+    },
+    {
+      "id": "log_0r08tv7",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T13:01:49.205Z"
+    },
+    {
+      "id": "log_cafwpou",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T13:02:56.802Z"
+    },
+    {
+      "id": "log_5h78zp2",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T13:04:24.651Z"
+    },
+    {
+      "id": "log_vwbrq05",
+      "userId": "guest_user_1",
+      "action": "chat_turn",
+      "tokensUsed": 0,
+      "timestamp": "2026-09-30T13:05:55.830Z"
+    }
+  ]
+}

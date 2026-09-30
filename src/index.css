@@ -1,0 +1,207 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-arabic: 'Alexandria', 'Cairo', system-ui, -apple-system, sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-arabic);
+    background-color: #030611;
+    color: #f8fafc;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(245, 158, 11, 0.25);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(6, 182, 212, 0.4);
+  }
+}
+
+/* ==========================================================================
+   EGYPTIAN QUANTUM GLASS DESIGN SYSTEM
+   ========================================================================== */
+
+/* Quantum Glass Base */
+.quantum-glass {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.07) 0%,
+    rgba(8, 15, 30, 0.72) 40%,
+    rgba(4, 8, 18, 0.85) 100%
+  );
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 16px 40px -12px rgba(0, 0, 0, 0.7),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.16);
+}
+
+/* Quantum Glass Card (Editorial responses, memory layers) */
+.quantum-card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(10, 18, 36, 0.65) 50%,
+    rgba(5, 10, 22, 0.8) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(245, 158, 11, 0.14);
+  box-shadow: 
+    0 12px 32px -8px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+}
+
+.quantum-card-active {
+  border-color: rgba(6, 182, 212, 0.4);
+  box-shadow: 
+    0 14px 38px -8px rgba(0, 0, 0, 0.75),
+    0 0 24px -4px rgba(6, 182, 212, 0.25);
+}
+
+/* Quantum Floating Input Dock */
+.quantum-dock {
+  background: linear-gradient(
+    180deg,
+    rgba(14, 23, 44, 0.88) 0%,
+    rgba(6, 11, 24, 0.94) 100%
+  );
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  border: 1px solid rgba(245, 158, 11, 0.22);
+  box-shadow: 
+    0 20px 50px -10px rgba(0, 0, 0, 0.85),
+    0 0 25px -5px rgba(245, 158, 11, 0.12),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.18);
+}
+
+/* Quantum Bottom Sheet */
+.quantum-sheet {
+  background: linear-gradient(
+    180deg,
+    rgba(12, 19, 38, 0.95) 0%,
+    rgba(4, 7, 16, 0.98) 100%
+  );
+  backdrop-filter: blur(36px);
+  -webkit-backdrop-filter: blur(36px);
+  border-top: 1px solid rgba(245, 158, 11, 0.25);
+  box-shadow: 0 -20px 60px rgba(0, 0, 0, 0.85);
+}
+
+/* AI Core Orb Glow Effects */
+.core-glow-idle {
+  box-shadow: 
+    0 0 35px 4px rgba(245, 158, 11, 0.35),
+    0 0 60px 10px rgba(6, 182, 212, 0.2),
+    inset 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.core-glow-listening {
+  box-shadow: 
+    0 0 45px 8px rgba(6, 182, 212, 0.6),
+    0 0 80px 20px rgba(56, 189, 248, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.core-glow-thinking {
+  box-shadow: 
+    0 0 45px 8px rgba(168, 85, 247, 0.55),
+    0 0 75px 15px rgba(245, 158, 11, 0.4),
+    inset 0 0 18px rgba(255, 255, 255, 0.4);
+}
+
+.core-glow-generating {
+  box-shadow: 
+    0 0 50px 12px rgba(245, 158, 11, 0.65),
+    0 0 90px 25px rgba(6, 182, 212, 0.45),
+    inset 0 0 22px rgba(255, 255, 255, 0.6);
+}
+
+/* Subtle Egyptian geometric watermark */
+.egyptian-geometric-watermark {
+  background-image: radial-gradient(rgba(245, 158, 11, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Keyframe animations */
+@keyframes core-breathe {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.animate-core-breathe {
+  animation: core-breathe 4s ease-in-out infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 1.8s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 16s linear infinite;
+}
+
+/* Glass panel backwards compatibility */
+.glass-panel {
+  background: rgba(7, 12, 24, 0.78);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(13, 20, 38, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.liquid-glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(245, 158, 11, 0.04) 50%, rgba(6, 182, 212, 0.03) 100%), rgba(8, 14, 28, 0.76);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid rgba(245, 158, 11, 0.18);
+  box-shadow: 0 14px 44px 0 rgba(0, 0, 0, 0.6), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+}

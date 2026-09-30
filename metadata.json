@@ -1,0 +1,6 @@
+{
+  "name": "MIZAN AI - مساعدك الشخصي الذكي",
+  "description": "المساعد الشخصي الذكي الأول باللهجة المصرية والعربية الفصحى للدراسة، البرمجة، البحث، وتنظيم المهام مع دعم الرؤية وتحليل الملفات",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
